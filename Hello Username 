@@ -1,0 +1,89 @@
+Last login: Sun Jun 27 19:39:36 on ttys000
+(base) christopherello@ChristophersMBP ~ % python
+Python 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def hello_name(user_name):
+... 
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block
+>>> def hello_name(user_name):input
+... input = USERNAME
+  File "<stdin>", line 2
+    input = USERNAME
+    ^
+SyntaxError: invalid syntax
+>>> input ("USERNAME")
+USERNAME
+''
+>>> print ("Hello" + input)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "builtin_function_or_method") to str
+>>> def hello_name(user_name):input
+...     """Display a simple greeting."""
+  File "<stdin>", line 2
+    """Display a simple greeting."""
+    ^
+IndentationError: unexpected indent
+>>> def hello_name(user_name):input
+... """Display a simple greeting."""
+  File "<stdin>", line 2
+    """Display a simple greeting."""
+    ^
+SyntaxError: invalid syntax
+>>> def hello_name(user_name):
+... """Display a simple greeting."""
+  File "<stdin>", line 2
+    """Display a simple greeting."""
+    ^
+IndentationError: expected an indented block
+>>> def hello_name(user_name):
+... """Display a simple greeting."""
+  File "<stdin>", line 2
+    """Display a simple greeting."""
+    ^
+IndentationError: expected an indented block
+>>> def hello_name(user_name):
+...     """Display a simple greeting."""
+...     print("Hello!"+ user_name)
+... greet user
+  File "<stdin>", line 4
+    greet user
+    ^
+SyntaxError: invalid syntax
+>>> def hello_name(user_name):
+... input(USERNAME)
+  File "<stdin>", line 2
+    input(USERNAME)
+    ^
+IndentationError: expected an indented block
+>>> def hello_name(user_name):
+... input("USERNAME")
+  File "<stdin>", line 2
+    input("USERNAME")
+    ^
+IndentationError: expected an indented block
+>>> def hello_name(user_name):
+...     input("USERNAME")
+... 
+>>> 
+>>> def hello_name(user_name):
+...     name = input("USERNAME")
+...     USERNAME = User Name
+  File "<stdin>", line 3
+    USERNAME = User Name
+                    ^
+SyntaxError: invalid syntax
+>>> def hello_name(user_name):
+...     name = input("USERNAME")
+...     """Display a simple greeting."""
+...     print("Hello!" + username.title()
+... greet_user('username')
+  File "<stdin>", line 5
+    greet_user('username')
+    ^
+SyntaxError: invalid syntax
+>>> 

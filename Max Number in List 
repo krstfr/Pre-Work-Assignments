@@ -1,0 +1,41 @@
+Last login: Sun Jun 27 19:51:59 on ttys001
+(base) christopherello@ChristophersMBP ~ % python
+Python 3.8.8 (default, Apr 13 2021, 12:59:45) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def max_num_in_list(a_list):
+... a_list = [1, 2, 3, 4, 5, 6, 7]
+  File "<stdin>", line 2
+    a_list = [1, 2, 3, 4, 5, 6, 7]
+    ^
+IndentationError: expected an indented block
+>>>     a_list = [1, 2, 3, 4, 5, 6, 7]
+  File "<stdin>", line 1
+    a_list = [1, 2, 3, 4, 5, 6, 7]
+    ^
+IndentationError: unexpected indent
+>>> def max_num_in_list(a_list):
+...     a_list = [1, 2, 3, 4, 5, 6, 7,]
+...     a_list.sort()
+...     print(max(a_list))
+... 
+>>> max(a_list)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a_list' is not defined
+>>> a_list = {1, 2, 3, 4, 5, 6, 7]
+  File "<stdin>", line 1
+    a_list = {1, 2, 3, 4, 5, 6, 7]
+                                 ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '{'
+>>> a_list = [1, 2, 3, 4, 5, 6, 7]
+>>> max(a_list)
+7
+>>> 
+
+
+
+
+
+
+
